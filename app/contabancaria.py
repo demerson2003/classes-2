@@ -9,7 +9,7 @@ class ContaBancaria:
         self.saldo += valor
 
     def exibir_saldo(self):
-        """Exibe o saldo atual da conta."""
+        """Exibe o saldo atual da contar."""
         return self.saldo
 
     def sacar(self, valor):
