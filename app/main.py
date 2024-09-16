@@ -1,5 +1,5 @@
 from cliente import Cliente
-from app.contabancaria import ContaCorrente, ContaPoupanca, ContaEmpresarial
+from contabancaria import ContaCorrente, ContaPoupanca, ContaEmpresarial
 
 def main():
     print("------------------------------------------")
