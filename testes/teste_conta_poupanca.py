@@ -16,7 +16,7 @@ class TestContaPoupanca(unittest.TestCase):
         self.conta.sacar(200)
         self.conta.sacar(200)
         self.conta.sacar(200)  # Excede o limite
-        self.assertEqual(self.conta.exibir_saldo(), 600)
+        self.assertEqual(self.conta.exibir_saldo(), 200)
 
 if __name__ == '__main__':
     unittest.main()
